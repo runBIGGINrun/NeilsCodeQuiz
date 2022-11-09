@@ -125,3 +125,39 @@ h2{
     margin: .5vw;
 }
 
+#right-wrong-display{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #12c3f0;
+    padding-right: 20vw;
+    text-decoration: overline solid .5vh;
+    font-size: 2.3vw;
+}
+
+#start-again{
+    font-size: 2.9vw;
+}
+
+#play-game-from-hs{
+    font-size: 1.5vw;
+    background-color:rgb(207, 27, 207);
+    color: white;
+    border-radius: 5px;
+    padding: .5vh .5vh;
+}
+
+/* Psuedo Class Elements  */
+header a:hover{
+    text-decoration: underline;
+    color: rgb(19, 18, 18);
+}
+
+#start-button:hover{
+    background-color:rgb(129, 39, 129);
+    color: white;
+}
+
+#selectable-answers li button:hover{
+    background-color:rgb(85, 14, 201);
+    color: white;
+}
