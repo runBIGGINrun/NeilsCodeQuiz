@@ -34,3 +34,22 @@ h2{
     font-weight: 900;
     margin: 0;
 }
+
+/*  Class Modifications  */
+.starting-card{
+    display: flex;
+    font-size: 1.6vw;
+    text-align: center;
+    font-weight: 500;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.questions-card{
+    display: none;
+    font-weight: 500;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
