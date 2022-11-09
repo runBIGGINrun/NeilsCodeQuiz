@@ -99,3 +99,23 @@ h2{
 #highscore-ul-view{
     color: black;
 }
+
+#start-button{
+    font-size: 1.5vw;
+    background-color:rgb(207, 27, 207);
+    color: white;
+    border-radius: 5px;
+    padding: .5vh .5vh;
+}
+
+#selectable-answers li button{
+    position: relative;
+    bottom: .5vw;
+    background-color:rgb(207, 27, 207);
+    width: 120%;
+    color: white;
+    border-radius: 5px;
+    padding: .2vw;
+    font-size: 1.3vw;
+    margin: .5vw;
+}
