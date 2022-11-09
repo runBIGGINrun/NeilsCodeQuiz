@@ -28,3 +28,9 @@ h1{
     margin: 0;
     text-decoration: underline solid rgb(20, 5, 231);
 }    
+
+h2{
+    font-size: 1.7vw;
+    font-weight: 900;
+    margin: 0;
+}
