@@ -89,3 +89,13 @@ h2{
 }
 
                 
+.highscores-view{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*  Id Specific Styles  */
+#highscore-ul-view{
+    color: black;
+}
