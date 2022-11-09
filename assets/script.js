@@ -15,7 +15,7 @@ let highscoreUlView = document.getElementById("highscore-ul-view");
 let highscoreViewHdr = document.getElementById("highscores-view-hdr");
 let highscoreViewScreen = document.getElementById("highscores-view-id");
 let hsSubmit = document.querySelector("#enter-initials-submission");
-let backToGame = document.getElementById("play-  game-from-hs");
+let backToGame = document.getElementById("play-game-from-hs");
 
 function init() {
   startingScreen.style.display = "flex";
