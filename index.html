@@ -25,7 +25,23 @@
             <button id="start-button">Start Quiz</button>
         </section>
 
+        <!--This is the card that the questions print to-->
+        <section class="questions-card" id="questions-screen">
+            <h2 id="questions"></h2>
+            <ol id="selectable-answers"></ol>
+            <p id="right-wrong-display"></p>
+        </section>
 
+        <!--This is the endgame highscores submit section-->
+        <section class="highscores-card" id="highscores-screen">
+            <h2 id="start-again">All Done!!</h2>
+            <p id="finalScoreWritten"></p>
+            <form id="enter-initials-submission" method="POST">
+                <label for="highscore-list">Enter initials</label>
+                <input type="text" placeholder="Initials" name="highscore-list" id="highscore-list" >
+            </form>
+            <ul id="highscore-ul"></ul>
+        </section>
 
 
 
